@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace AlgoritmosIneficientes
-{
+namespace AlgoritmosIneficientes;
+
     class Program
     {
         static void Main()
@@ -18,4 +18,4 @@ namespace AlgoritmosIneficientes
             return Fibonacci(n - 1) + Fibonacci(n - 2); // Llamadas recursivas ineficientes
         }
     }
-}
+
